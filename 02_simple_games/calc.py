@@ -89,7 +89,7 @@ def start():
         elif menu_choice == '2':
             result = subtract(n1, n2)
         elif menu_choice == '3':
-            result - multiply(n1, n2)
+            result = multiply(n1, n2)
         elif menu_choice == '4':
             result = divide(n1, n2)
 
