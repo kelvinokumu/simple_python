@@ -1,4 +1,4 @@
-i = 0
+i = 0  # initialization
 skipped = {2, 4}
 while i <= 5:
     i += 1
