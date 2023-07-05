@@ -1,10 +1,19 @@
-i = 0  # initialization
-skipped = {2, 4}
-while i <= 5:
-    i += 1
-    if i in skipped:
-        continue # this will skip some values
+# Assigning values to variables
+name = "John Doe"
+age = 25
+is_student = True
+height = 1.75
 
-    print(i)
+# Accessing variable values
+print("Name:", name)
+print("Age:", age)
+print("Is Student:", is_student)
+print("Height:", height)
 
+# Modifying variable values
+age = age + 1
+height += 0.05
 
+# Printing modified values
+print("Updated Age:", age)
+print("Updated Height:", height)
