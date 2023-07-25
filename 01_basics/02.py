@@ -12,7 +12,7 @@ print("Height:", height)
 
 # Modifying variable values
 age = age + 1
-height += 0.05
+height += 0.05   # height = height + 0.05
 
 # Printing modified values
 print("Updated Age:", age)
